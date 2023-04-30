@@ -1,11 +1,11 @@
 from confluent_kafka import Consumer
 
 def login_info():
-    info={'bootstrap.servers':'pkc-6ojv2.us-west4.gcp.confluent.cloud:9092',
+    info={'bootstrap.servers':'xxxxxxxxxxxxxxxxx',
           'security.protocol':'SASL_SSL',
           'sasl.mechanism':'PLAIN',
-          'sasl.username':'GXPZJPTLQMOSBVKA',
-          'sasl.password':'c35F9t9ywdnocNNb1TAyGYaVmCIPynX0iPAWYxoe+ygDjBqBQA3hITu2cfykNtNt',
+          'sasl.username':'xxxxxxxxxx',
+          'sasl.password':'xxxxxxxxxxxxx',
           'group.id':'my-group',
           'auto.offset.reset':'earliest'
           }
